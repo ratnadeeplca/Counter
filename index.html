@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: 'poppins';
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .main{
+            display: flex;  
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        h3{
+            font-family: inherit;
+            font-size: 65px;
+            text-transform: capitalize;
+            padding: 0;
+            margin: 0;
+        }
+
+        span{
+            font-family: inherit;
+            font-size: 70px;
+            margin: 15px 0;
+        }
+
+        ul{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        li{
+            padding: 0;
+            margin: 0;
+            text-transform: capitalize;
+            font-family: inherit;
+            font-size: 20px;
+            font-weight: 500;
+            border: 2px solid #222222;
+            padding: 5px 25px;
+            background-color: transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        li:hover{
+            background-color: #222222;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <h3>Counter</h3>
+        <span id="number">0</span>
+        <ul>
+            <li id="decrease-btn">decrease</li>
+            <li id="reset-btn">reset</li>
+            <li id="increase-btn">increase</li>
+        </ul>
+    </div>
+    
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
